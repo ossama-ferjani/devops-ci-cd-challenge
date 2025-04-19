@@ -22,4 +22,4 @@ jobs:
            echo "Hello from the Self-Hosted Runner!"
            echo "Hostname: $(hostname)"
            echo "Current Date: $(date)"
-           sudo apt-get update
+           
