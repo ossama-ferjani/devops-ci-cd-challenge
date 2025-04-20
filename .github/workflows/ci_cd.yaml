@@ -20,6 +20,6 @@ jobs:
         - name: Print environment information
           run: |
            echo "Hello from the Self-Hosted Runner!"
-           echo "Hostname: $(hostname)"
+           echo "Hostname: $(hostname)   gdd"
            echo "Current Date: $(date)"
            sudo apt-get update
