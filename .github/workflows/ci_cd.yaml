@@ -3,7 +3,7 @@ name: CI/CD Challenge Pipeline
 on:
     push:
         branches:
-        - main
+        - test-pipe
     pull_request:
         types: [opened, synchronize, reopened]
         branches:
