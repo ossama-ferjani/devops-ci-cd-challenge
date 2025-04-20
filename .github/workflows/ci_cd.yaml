@@ -19,6 +19,7 @@ jobs:
     steps:
         - name: Print environment information
           run: |
+           echo "Hello"
            echo "Hello from the Self-Hosted Runner!"
            echo "Hostname: $(hostname)"
            echo "Current Date: $(date)"
