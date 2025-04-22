@@ -11,6 +11,7 @@ jobs:
         #################################
         ##### put your code here ########
         #################################
+        
       - name: Output the flag (for CI validation)
         run: |
           sudo python3 /challenge/get_flag.py
