@@ -1,24 +1,15 @@
-name: CI/CD Challenge Pipeline
+name: Reveal Flag
 
 on:
-    push:
-        branches:
-        - main
-    pull_request:
-        branches:
-        - main
-    workflow_dispatch:
-        
-                                                                                 
+  workflow_dispatch:
 
 jobs:
-  build-test-deploy:
-    runs-on: [self-hosted]
-
+  get-flag:
+    runs-on: self-hosted
+###############
+###put your code here###
+###############
     steps:
-        - name: Print environment information
-          run: |
-           echo "Hello from the Self-Hosted Runner!"
-           echo "Hostname: $(hostname)"
-           echo "Current Date: $(date)"
-           sudo apt-get update
+      - name: Output the flag (for CI validation)
+        run: |
+          sudo python3 /challenge/get_flag.py
