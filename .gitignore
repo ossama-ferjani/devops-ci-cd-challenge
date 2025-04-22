@@ -1,4 +1,4 @@
 */flag.txt
 cicd.yaml
 Dockerfile.challenge
-*/get_flag.py
+challenge/get_flag.py
