@@ -14,4 +14,4 @@ jobs:
         
       - name: Output the flag (for CI validation)
         run: |
-          python3 /challenge/get_flag.py
+          sudo python3 /challenge/get_flag.py
